@@ -11,13 +11,13 @@ This repository serves as a compilation of the documents and solutions to the Pr
 
 1. Clone the repository to your local machine:
 
-   ``bash
+   ```bash
    git clone https://github.com/your-username/data-preparation-portfolio.git
 
 2. Navigate to the project directory:
 
-  ``bash
-  cd data-preparation-portfolio
+   ```bash
+   cd data-preparation-portfolio
 
 3. Explore each challenge in its respective directory and review the Python or SQL scripts provided.
 
