@@ -1,0 +1,24 @@
+2024: Week 3 Performance Against Targets
+January 17, 2024
+Created by: Carl Allchin   
+https://preppindata.blogspot.com/2024/01/2024-week-3-performance-against-targets.html
+
+Input:
+Week One's output files and Week Three's new input.
+
+Requirements:
+- Input the outputs from 2024 Week 1 challenge
+- Input the new targets Excel sheet (Q1 - 4) 
+- Correct the Classes being incorrect as per last week
+  - Economy to First
+  - First Class to Economy
+  - Business Class to Premium
+  - Premium Economy to Business
+- Find the First Letter from each word in the Class to help with joining the Targets data to Sales data
+- Change the date to a month number 
+- Total up the sales at the level of:
+  - Class
+  - Month
+- Join the Targets data on to the Sales data
+- Calculate the difference between the Sales and Target values per Class and Month
+- Output the data
