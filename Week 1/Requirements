@@ -4,18 +4,17 @@ Created by: Carl Allchin
 https://preppindata.blogspot.com/2024/01/2024-week-1-prep-airs-flow-card.html
 
 Requirements
-  Input the data
-  Split the Flight Details field to form:
-    Date 
-    Flight Number
-    From
-    To
-    Class
-    Price
-  Convert the following data fields to the correct data types:
-    Date to a date format
-    Price to a decimal value
-  Change the Flow Card field to Yes / No values instead of 1 / 0
-  
-  Create two tables, one for Flow Card holders and one for non-Flow Card holders
-  Output the data sets
+- Input the data
+- Split the Flight Details field to form:
+  - Date 
+  - Flight Number
+  - From
+  - To
+  - Class
+  - Price
+- Convert the following data fields to the correct data types:
+  - Date to a date format
+  - Price to a decimal value
+- Change the Flow Card field to Yes / No values instead of 1 / 0
+- Create two tables, one for Flow Card holders and one for non-Flow Card holders
+- Output the data sets
