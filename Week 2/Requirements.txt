@@ -1,11 +1,12 @@
 2024: Week 2 - Average Price Analysis
 January 10, 2024
 Created by: Carl Allchin
-Link: https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html
+https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html
 
 Input
 The input data set for this week is the output from week one. 
 
+Requirements:
 - Input the two csv files
 - Union the files together
 - Convert the Date field to a Quarter Number instead
