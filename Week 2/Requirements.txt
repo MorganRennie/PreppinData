@@ -1,0 +1,28 @@
+2024: Week 2 - Average Price Analysis
+January 10, 2024
+Created by: Carl Allchin
+Link: https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html
+
+Input
+The input data set for this week is the output from week one. 
+
+- Input the two csv files
+- Union the files together
+- Convert the Date field to a Quarter Number instead
+  - Name this field Quarter
+- Aggregate the data in the following ways:
+  - Median price per Quarter, Flow Card? and Class
+  - Minimum price per Quarter, Flow Card? and Class
+  - Maximum price per Quarter, Flow Card? and Class
+- Create three separate flows where you have only one of the aggregated measures in each. 
+  - One for the minimum price
+  - One for the median price
+  - One for the maximum price
+- Pivot the data to have a column per class for each quarter and whether the passenger had a flow card or not
+- Union these flows back together
+- Change the name of the columns:
+  - Economy to First
+  - First Class to Economy
+  - Business Class to Premium
+  - Premium Economy to Business
+- Output the data
