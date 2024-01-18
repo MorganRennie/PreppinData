@@ -1,3 +1,6 @@
+-- Reduced execution duration by 7%
+-- Reduced lines of code by 20, reduced views created from 5 to 3, streamliend logic.
+
 -- UNION AND CORRECT INPUT DATA
 	CREATE VIEW `UNIONED_WEEK2` AS
 	WITH CTE AS 
