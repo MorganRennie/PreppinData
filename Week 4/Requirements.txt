@@ -1,0 +1,18 @@
+2024: Week 4 - Unpopular Seats
+January 24, 2024
+Created by: Carl Allchin
+https://preppindata.blogspot.com/2024/01/2024-week-4-unpopular-seats.html
+
+Requirements
+- Input the Excel workbook containing the four worksheets of data
+- Union the Flow Card and Non-Flow card data sets together
+- Create a data field to show whether the seat was booked by someone with the Flow Card or not
+  - Call this field 'Flow Card?'
+- Aggregate the Seat Bookings to count how many bookings there are for:
+  - Each Seat
+  - In each Row
+  - In each Class
+  - For Flow and Non-Flow Card holders
+- Join on the Seating Plan data to ensure you have a data set for every seat on the plane, even if it hasn't been booked
+- Only return the records for the seats that haven't been booked
+- Output the data set showing what seat, rows and class have NOT been booked
