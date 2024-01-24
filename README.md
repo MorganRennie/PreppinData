@@ -5,7 +5,7 @@ This repository serves as a compilation of the documents and solutions to the Pr
 ## Technologies Used 🛠️
 
 - Python 🐍
-- SQL 🔍
+- MySQL 🔍
 
 ## How to Use
 
