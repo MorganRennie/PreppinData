@@ -1,0 +1,23 @@
+2024: Week 5 - Getting the right data
+January 31, 2024
+Challenge by: Jenny Martin
+url: https://preppindata.blogspot.com/2024/01/2024-week-5-getting-right-data.html
+
+Requirements
+- Input the data
+- For the first output:
+  - Create a dataset that gives all the customer details for booked flights in 2024. Make sure the output also includes details on the flights origin and destination
+  - When outputting the data, create an excel file with a new sheet for each output (so 1 file for all outputs this week!)
+- For the second output:
+  - Create a dataset that allows Prep Air to identify which flights have not yet been booked in 2024
+  - Add a datestamp field to this dataset for today's date (31/01/2024) so that Prep Air know the unbooked flights as of the day the workflow is run
+  - When outputting the table to a new sheet in the Excel Workbook, choose the option "Append to Table" under Write Options. This means that if the workflow is run on a different day, the results will add additional rows to the dataset, rather than overwriting the previous run's data
+- For the third output:
+  - Create a dataset that shows which customers have yet to book a flight with Prep Air in 2024
+  - Create a field which will allow Prep Air to see how many days it has been since the customer last flew (compared to 31/01/2024)
+  - Categorise customers into the following groups:
+    - Recent fliers - flown within the last 3 months
+    - Taking a break - 3-6 months since last flight
+    - Been away a while - 6-9 months since last flight
+    - Lapsed Customers - over 9 months since last flight
+  - Output the data to a new sheet in the Excel Workbook
