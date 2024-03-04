@@ -1,0 +1,16 @@
+2024: Week 7 - Valentine's Day
+February 14, 2024
+Challenge by: Jenny Martin
+https://preppindata.blogspot.com/2024/02/2024-week-7-valentines-day.html
+
+Requirements
+- Input the data
+- Fix the Relationship Start field so that it has a Date data type
+- Create a field for today's date (14/02/2024)
+- To count the number of Valentine's days, we need to think a little more creatively than using a simple datediff function to count the number of years. A couple of potential routes could be:
+  - Scaffolding the data so there is a row per day, filtering to Valentine's days and counting the number of rows
+  - A logical calculation that takes into consideration whether the Couple's Relationship Start date is before or after Valentines Day
+- To prepare to join onto the Gift ideas dataset, make the Year field match the data type of the Number of Valentine's field
+- Join the 2 datasets together
+- Remove unnecessary fields
+- Output the data
