@@ -1,0 +1,15 @@
+2024: Week 9 - Prep Air Capacity
+February 28, 2024
+Challenge by: Jenny Martin
+https://preppindata.blogspot.com/2024/02/2024-week-9-prep-air-capacity.html
+
+Requirements
+- Input the data
+- If the customer has cancelled their flight, make sure all rows are filtered out for that flight 
+- For each customer on a flight, filter the dataset to their most recent action
+- Based on the Date field, create a field which shows how many seats in total have been booked as of that date for each flight and class
+- Bring in information about the Flight Details
+- Calculate the Capacity %: of the available seats on the flight for each class, what percentage have been booked so far
+- For classes which are yet to be booked for a flight, ensure the Capacity % shows as 0% for these rows
+  - The Date for these rows should be today's date (28/02/2024) 
+- Output the data
