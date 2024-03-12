@@ -1,0 +1,29 @@
+2024: Week 10 - Preppin' for Pulse
+March 06, 2024
+Challenge by: Jenny Martin
+https://preppindata.blogspot.com/2024/03/2024-week-10-preppin-for-pulse.html
+
+Requirements
+- Input the data
+- Filter to the last 2 years of data i.e. only 2023 and 2024 transactions
+- Create additional rows of data for the days the store was closed, ensuring all other fields will have null values
+  - The store is closed on Sundays and Public Holidays
+- Update the Cash_or_Card field so that:
+  - 1=Card
+  - 2=Cash
+- Join the Product Table
+  - Prepare the join clause fields first
+- Calculate the Quantity of each transaction 
+  - Defined as the Sales_Before_Discount / Selling_Price
+- In the Loyalty Table:
+  - The Cusotmer_Name is currently reading Last Name, First Name. Update it to read First Name Last Name in Title case
+  - e.g. knell, libby becomes Libby Knell
+- Group together the Loyalty_Tiers into Gold, Silver and Bronze
+- Update the Loyalty_Discount to be a numeric field
+- Join the Loyalty Table
+  - Create a Sales_After_Discount field to apply the Loyalty_Discount for transactions with a Loyalty_Number
+- Calculate the Profit, defined as:
+  - Sales_After_Discount - (Unit_Cost * Quantity)
+- Update the field names to remove all underscores and replace them with spaces
+- Remove any unnecessary fields
+- Output the data
