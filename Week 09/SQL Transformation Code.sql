@@ -25,12 +25,12 @@ CREATE TABLE WEEK8_DETAILS
 
 INSERT INTO WEEK8_DETAILS VALUES ();
 
----------------------------------
+############################################################################################
 -- CHANGE DATE FORMATTING OF INSERTED DATA
 UPDATE week8_details
     SET `FLIGHT_DATE`=STR_TO_DATE(`FLIGHT_DATE`,'%m/%d/%yy');
-----------------------------------
 
+############################################################################################
 -- FILTERING THE DATA TO REMOVE ANY CANCLLED BOOKINGS AND ONLY KEEP THE MOST RECENT ROW. 
 CREATE VIEW WEEK8_MOST_RECENT_UPDATES_LIST AS
 WITH CTE AS 
