@@ -1,0 +1,18 @@
+2024: Week 13 - Easter Sales
+March 27, 2024
+Challenge by: Jenny Martin
+https://preppindata.blogspot.com/2024/03/2024-week-13-easter-sales.html
+
+Requirements
+- Input the data
+- Bring all the years together in a single table
+- Work out the Easter Week Number, as per the first line chart, so the years can be compared
+- Ensure that the weeks begin on a Monday
+- Make sure there is a field for which day of the week each Sales Date is in order to create the 2nd chart
+- Abbreviate these weekday names as above i.e.
+    - Monday = M
+    - Tuesday = Tu 
+- Add in a field for the Weekday Order so the visualisation can be sorted Monday-Sunday
+  - i.e. Monday = 1, Tuesday = 2 etc
+- Calculate the Sales per Product per Sales Date
+- Output the data
