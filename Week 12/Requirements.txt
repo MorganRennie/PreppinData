@@ -1,0 +1,17 @@
+2024: Week 12 - Graduate Student Loan Repayments
+March 20, 2024
+Challenge by: Jenny Martin
+https://preppindata.blogspot.com/2024/03/2024-week-12-graduate-student-loan.html
+
+Requirements
+- Input the data
+- In the Undergraduate Loans table, create a row for every year of the course 
+- Calculate the number of months between the payment date and April 2024
+- Join with the Repayment details table
+- Calculate the Amount Borrowed + the Interest applied
+  - (Calculation for compound interest will be useful here)
+- Total these values together so only 1 row remains and graduates can clearly see the total amount they borrowed and where it stands now that interest has been applied
+- Introduce a Salary parameter with values of potential graduate salaries.
+  - Workout what their monthly repayment will be, based on the above information
+  - Also work out how much interest will be applied in the following month, after the repayment is made 
+- Output the data
